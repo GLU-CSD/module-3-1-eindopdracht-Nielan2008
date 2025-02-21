@@ -2,3 +2,40 @@
   padding:0;
   margin:0;
 }
+
+body{
+  font-family: 'arial';
+  background-color: #f1f1f1;
+}
+
+#h1{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'arial'; 
+}
+
+#RSS{
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 150, 255);
+  background-color: #f1f1f1;
+  border: 1px solid lightgrey;
+  display: flex;
+  align-items: start;
+  padding-left: 20px;
+}
+
+#container{
+  background-color: blueviolet;
+  width: 100%;
+  height: 99vh;
+  display: flex;
+}
+
+#top-bar{
+width: 100%;
+height: 50px;
+background-color: #f1f1f1;
+}
+
