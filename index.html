@@ -28,7 +28,7 @@
   <script src="assets/js/app.js"></script>
   <div id="top-bar">
 
-    <div>
+    <div id="Taal">
       <form action="/action_page.php">
         <label for="taal">Uw taal: </label>
         <select name="taal" id="taal">
@@ -37,20 +37,72 @@
         </select>
     </div>
     <!-- <div id="top-bar-text">Mijn account <span id="lines"> |</span> Afrekenen <span id="lines"> |</span> Inlogen</div> -->
-     <div id="top-bar-text">
-      <div id="Account"></div>
-      <div id="Afrekenen"></div>
-      <div id="Inlogen"></div>
+    <div id="top-bar-text">
+      <button id="Account">Account</button>
+      <button id="Afrekenen">Afrekenen</button>
+      <button id="Inlogen">Inlogen</button>
 
-     </div>
+    </div>
 
   </div>
-  <div id="top-bar-bottom">b</div>
+  <div id="top-bar-bottom">
+    <div id="Logo"><img id="Logo-Img" src="assets/img/sigmund.png" alt=""></div>
+    <div id="Top-Bar-Buttons-Space">
+      <button id="Top-Bar-Buttons">A</button>
+      <button id="Top-Bar-Buttons">B</button>
+      <button id="Top-Bar-Buttons">C</button>
+      <button id="Top-Bar-Buttons">D</button>
+      <button id="Top-Bar-Buttons">E</button>
+    </div>
+
+    <div id="Top-Bar-3Buttons-Space">
+      <button id="Top-Bar-3Buttons">A</button>
+      <button id="Top-Bar-3Buttons">B</button>
+      <button id="Top-Bar-3Buttons">C</button>
+    </div>
+  </div>
   </div>
 
   <div id="container">
     <div id="side-bar">
+      <button id="Home-Button">Home</button>
       <p></p>
+
+
+      <div id="lijst">
+        <ul>
+          <li><a href="#">Subcategorie 1</a></li>
+          <li><a href="#">Subcategorie 2</a></li>
+          <li><a href="#">Subcategorie 3</a></li>
+        </ul>
+      </div>
+      <div id="lijst2">
+        <p>Materiaal</p>
+        <ul>
+          <li><a href="#">Hout (14)</a></li>
+          <li><a href="#">Plastic (12)</a></li>
+          <li><a href="#">Metaal (13)</a></li>
+          <li><a href="#">Rubber (11)</a></li>
+        </ul>
+      </div>
+
+      <div id="lijst3">
+        <form>
+          <input type="range" min="0" max="75" step="1">
+          <span>€0,00</span> - <span>€75,00</span>
+        </form>
+      </div>
+
+
+      <div id="lijst4">
+        <form>
+          <input type="email" placeholder="Voer uw e-mail in" required>
+          <button type="submit">Inschrijven</button>
+        </form>
+      </div>
+
+
+
     </div>
 
     <div class="item-container">
@@ -103,11 +155,80 @@
         <div class="text2">€ 20,965</div>
         <div class="text3">€ 19,95</div>
       </div>
+      <div class="item">
+        <div class="a"><img></div>
+        <div class="text">CD Doosje</div>
+        <button class="b">Bestell</button>
+        <div class="text2">€ 20,965</div>
+        <div class="text3">€ 19,95</div>
+      </div>
+      <div class="item">
+        <div class="a"><img></div>
+        <div class="text">CD Doosje</div>
+        <button class="b">Bestell</button>
+        <div class="text2">€ 20,965</div>
+        <div class="text3">€ 19,95</div>
+      </div>
+      <div class="item">
+        <div class="a"><img></div>
+        <div class="text">CD Doosje</div>
+        <button class="b">Bestell</button>
+        <div class="text2">€ 20,965</div>
+        <div class="text3">€ 19,95</div>
+      </div>
+      <div class="item">
+        <div class="a"><img></div>
+        <div class="text">CD Doosje</div>
+        <button class="b">Bestell</button>
+        <div class="text2">€ 20,965</div>
+        <div class="text3">€ 19,95</div>
+      </div>
+      <div class="item">
+        <div class="a"><img></div>
+        <div class="text">CD Doosje</div>
+        <button class="b">Bestell</button>
+        <div class="text2">€ 20,965</div>
+        <div class="text3">€ 19,95</div>
+      </div>
     </div>
 
   </div>
-
-
+  <div id="bottom-page-container">
+    <div id="bottom-page">
+      <div id="bottoms-page-text">
+        <h3>VEILIG BETALEN</h3>
+        <p>Betaal in alle veiligheid met onze partners</p>
+        <div class="payment-icons">
+          <img src="assets/img/payment1.png" alt="Betaalmethode 1">
+          <img src="assets/img/payment2.png" alt="Betaalmethode 2">
+          <img src="assets/img/payment3.png" alt="Betaalmethode 3">
+      </div>
+      </div>
+      <div id="bottoms-page-text2">
+        <h3>KLANTENSERVICE</h3>
+        <ul>
+            <li><a href="#">Wachtwoord vergeten</a></li>
+            <li><a href="#">Veilige betaling</a></li>
+            <li><a href="#">Levering</a></li>
+            <li><a href="#">Annuleren, retourneren en ruilen</a></li>
+        </ul>
+      </div>
+      <div id="bottoms-page-text3">
+        <h3>OVER ONS</h3>
+        <ul>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Contactinformatie</a></li>
+            <li><a href="#">Algemene voorwaarden</a></li>
+            <li><a href="#">Privacy beleid</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="bottom-page2-container">
+    <div id="bottom-page2">
+      <p>Winkel door Nielan</p>
+    </div>
+  </div>
 
 
 </body>
