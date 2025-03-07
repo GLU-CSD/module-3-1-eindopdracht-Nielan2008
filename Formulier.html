@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coolblue</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="box-1"></div>
+    <div class="information">JE GEGEVENS.</div>
+    <div class="information-2">Wat moet er op de factuur staan?</div></br>
+<div id="container-form">
+        <form action="doelbestand.php" method="post">
+            <label for="radio">Type bestelling</label>
+                <input type="radio" name="radio" value="1" id="particulier" />
+                <label for="particulier">Particulier</label>
+                <input type="radio" name="radio" value="0" id="zakelijk" />
+                <label for="zakelijk">Zakelijk</label>
+            <div>
+                <label for="radio">Aanhef</label>
+                <input type="radio" name="radio2" value="1" id="dhr" />
+                <label for="dhr">Dhr.</label>
+                <input type="radio" name="radio2" value="0" id="mevr" />
+                <label for="mevr">Mevr.</label>
+            </div><br>
+            <div>
+                <label for="checkbox">Naam</label>
+                <input type="text" name="vnaam" placeholder="Voornaam" />
+                <input type="text" name="tvoeg" placeholder="Tussenv." />
+                <input type="text" name="anaam" placeholder="Achternaam" />
+            </div><br>
+            <div>
+                <label for="checkbox">Postcode</label>
+                <input type="text" name="postcode" placeholder="1234AB" />
+                </div><br>
+            <div>
+                <label for="checkbox">Huisnummer</label>
+                <input type="text" name="huisnummer" placeholder="Nr." />
+                <input type="text" name="toevoeging" placeholder="Toev." />
+            </div><br>
+            <div>
+            <p>Land  Nederlands> In belgie laten bezorgen</p>
+            </div><br>
+            <div>
+                <label for="radio">Afleveradres</label>
+                <input type="radio" name="radio3" value="1" id="Op bovenstaand adres bezorgen" />
+                <label for="Op bovenstaand adres bezorgen">Op bovenstaand adres bezorgen</label>
+                <input type="radio" name="radio3" value="0" id="Op ander adres bezorgen" />
+                <label for="Op ander adres bezorgen">Op ander adres bezorgen</label>
+            </div><br>
+            <div>
+                <label for="checkbox">E-mailadress</label>
+                <input type="text" name="email" />
+            </div><br>
+            <div>
+                <label for="checkbox">Telefoonnummer</label>
+                <input type="text" name="telefoonnummer" />
+            </div><br>
+            <div>
+                <label for="date">Geboortedatum</label>
+                <input type="date" name="datum" />
+            </div><br>
+            <div>
+                <label for="radio">Verzendwijze factuur</label>
+                <input type="radio" name="radio4" value="1" id="Factuur per e-mail" />
+                <label for="Factuur per e-mail">Factuur per e-mail</label>
+                <input type="radio" name="radio4" value="0" id="Factuur geprint bij de bestelling" />
+                <label for="Factuur geprint bij de bestelling">Factuur geprint bij de bestelling</label>
+            </div><br>
+            <div>
+                <label for="checkbox">Nieuwsbrief</label>
+                <input type="checkbox" name="Nieuwsbrief" />
+                <label for="Nieuwsbief">Ja, Ik wil de Coolblue-nieuwsbrief met €5,- cadeaubon voor mijn volgende bestelling</label>
+            </div><br>
+            <div>
+                <label for="color">Kleur verpakking</label>
+                <input type="color" name="color" />
+            </div><br>
+            <div>
+                <label for="pass">Wachtwoord</label>
+                <input type="password" id="pass" name="password" minlength="6" required />
+                <label for="pass">Minimaal 6 karakters, Verder doen we niet zo moeilijk.</label>
+            </div><br>
+            <div>
+                <label for="confirm-pass">Bevestig wachtwoord</label>
+                <input type="password" id="confirm-pass" name="confirm-password" minlength="6" required />
+            </div><br>
+            <div>
+                <input class="styled" type="button" value="Verder" />
+            <div></div>
+        </form>
+    </div>
+</body>
+</html>
