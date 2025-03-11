@@ -128,7 +128,7 @@ padding-left: 30px;
   height: 100%;
 }
 
-#Top-Bar-Buttons {
+.Top-Bar-Buttons {
   min-width: 15%;
   min-height: 50%;
   background-color: #f1f1f1;
@@ -139,12 +139,12 @@ padding-left: 30px;
 }
 
 
-#Top-Bar-Buttons:hover {
+.Top-Bar-Buttons:hover {
   border: 2px solid rgb(0, 200, 255);
   cursor: pointer;
 }
 
-#Top-Bar-Buttons:active {
+.Top-Bar-Buttons:active {
   background-color: rgb(0, 200, 255);
   opacity: 0.6;
 }
@@ -160,7 +160,7 @@ padding-left: 30px;
 }
 
 
-#Top-Bar-3Buttons {
+.Top-Bar-3Buttons {
   min-width: 30%;
   min-height: 50%;
   background-color: rgb(0, 200, 255);
@@ -168,12 +168,12 @@ padding-left: 30px;
   box-shadow: 0px 0px 1px 0px black;
 }
 
-#Top-Bar-3Buttons:hover {
+.Top-Bar-3Buttons:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
 
-#Top-Bar-3Buttons:active {
+.Top-Bar-3Buttons:active {
   background-color: gray;
   border: none;
   opacity: 0.8;
