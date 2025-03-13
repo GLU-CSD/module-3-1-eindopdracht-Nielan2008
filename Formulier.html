@@ -28,20 +28,20 @@
 
             <div>
                 <label for="checkbox">Naam</label>
-                <input type="text" name="vnaam" placeholder="Voornaam" />
-                <input type="text" name="tvoeg" placeholder="Tussenv." />
-                <input type="text" name="anaam" placeholder="Achternaam" />
+                <input type="text" name="vnaam" placeholder="Voornaam" required />
+                <input type="text" name="tvoeg" placeholder="Tussenv." required />
+                <input type="text" name="anaam" placeholder="Achternaam" required />
             </div><br>
 
             <div>
                 <label for="checkbox">Postcode</label>
-                <input type="text" name="postcode" placeholder="1234AB" />
+                <input type="text" name="postcode" placeholder="1234AB" required />
             </div><br>
 
             <div>
                 <label for="checkbox">Huisnummer</label>
-                <input type="number" name="huisnummer" placeholder="Nr." />
-                <input type="text" name="toevoeging" placeholder="Toev." />
+                <input type="number" name="huisnummer" placeholder="Nr."  required/>
+                <input type="text" name="toevoeging" placeholder="Toev." required />
             </div><br>
 
             <div>
@@ -58,17 +58,17 @@
 
             <div>
                 <label for="checkbox">E-mailadress</label>
-                <input type="email" name="email" />
+                <input type="email" name="email" required/>
             </div><br>
 
             <div>
                 <label for="checkbox">Telefoonnummer</label>
-                <input type="tel" name="telefoonnummer" />
+                <input type="tel" name="telefoonnummer" required />
             </div><br>
 
             <div>
                 <label for="date">Geboortedatum</label>
-                <input type="date" name="datum" />
+                <input type="date" name="datum" required />
             </div><br>
 
             <div>
@@ -102,7 +102,7 @@
             </div><br>
 
             <div>
-                <a href="index.html"><input class="styled" type="button" value="Verder" /></a>
+                <input class="styled" type="submit" value="Verder" />
             </div>
         </form>
     </div>
